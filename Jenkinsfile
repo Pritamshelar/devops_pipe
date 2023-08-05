@@ -4,6 +4,6 @@ pipeline
     stages
     {
         stage('Display hello')
-        {step {sh 'echo hi_pritam'}}
+        {steps {sh 'echo hi_pritam'}}
     }
 }
